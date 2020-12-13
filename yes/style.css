@@ -1,0 +1,115 @@
+body{
+    background: url("body-bg.jpg");
+    
+}
+.img{
+    background: url("container-bg.png");
+    margin-top: 120px;
+ 
+}
+
+.sign{
+    background-color: rgba(157,125,76,0.6);
+    margin-top: 137px;
+    
+}
+
+h1{
+    margin-left: 34px;
+    margin-top: 34px;
+    font-weight: bold;
+    color: white;
+}
+h6{
+    margin-left: 34px;
+    margin-top: 9px;
+color: white;
+margin-bottom: 23px;
+}
+.form-control{
+    margin-left: 34px;
+    color: white;
+    border: none;
+background-color: transparent;
+border-bottom: 1px solid white;
+max-width: 420px;
+
+}
+.form-control::-webkit-input-placeholder{
+    color: white;
+}
+
+
+
+.form-control:hover{
+    border: none;
+    background-color: transparent;
+
+}
+.form-control:focus{
+    background-color: transparent;
+    border: none !important;
+}
+.form-control:active{
+    background-color: transparent;
+    border-color: transparent;
+    border: none !important;
+}
+
+
+
+
+
+
+
+
+
+.fomm{
+    margin-left: 34px;
+    margin-bottom: 34px;
+}
+.fomm p{
+    color: white;
+}
+.one{
+    margin-left: 34px;
+    padding: 13px 32px;
+    border-radius: 23px;
+    border: none;
+    margin-bottom: 40px;
+}
+.two{
+    margin-left: 32px;
+    padding: 13px 32px;
+    border-radius: 23px;
+    border: none;
+    margin-bottom: 40px;
+}
+.ps{
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width:500px){
+    .sign{
+        max-width: 390px;
+        margin: auto;
+    }
+    .form-control{
+        width: 70%;
+    }
+    
+   
+
+}
+
+@media screen and (max-width:1000px){
+    .sign{
+        max-width: 420px;
+        margin: auto;
+    }
+    .form-control{
+        width: 70%;
+    }
+
+}
+
